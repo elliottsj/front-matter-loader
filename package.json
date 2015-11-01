@@ -1,0 +1,27 @@
+{
+  "name": "front-matter-loader",
+  "version": "0.1.0",
+  "description": "Webpack loader to extract frontmatter using jxson/front-matter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elliottsj/front-matter-loader.git"
+  },
+  "keywords": [
+    "yaml",
+    "frontmatter",
+    "front-matter"
+  ],
+  "author": "Spencer Elliott <me@elliottsj.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elliottsj/front-matter-loader/issues"
+  },
+  "homepage": "https://github.com/elliottsj/front-matter-loader#readme",
+  "dependencies": {
+    "front-matter": "^2.0.0"
+  }
+}
