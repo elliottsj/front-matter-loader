@@ -1,5 +1,5 @@
 # front-matter-loader
-Webpack loader to extract frontmatter using jxson/front-matter
+Webpack loader to extract frontmatter using [jxson/front-matter](https://github.com/jxson/front-matter)
 
 ## Installation
 
