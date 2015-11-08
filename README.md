@@ -23,18 +23,24 @@ Here is some example content
 The frontmatter can be extracted like this:
 
 ```js
-var exampleFM = require('json!front-matter!./example.md')
+var exampleFrontmatter = require('json!front-matter!./example.md')
 
-console.log(exampleFM.attributes.title)
+console.log(exampleFrontmatter.attributes.title)
 // => 'Example'
-console.log(exampleFM.attributes.description)
+console.log(exampleFrontmatter.attributes.description)
 // => 'This is an example'
-console.log(exampleFM.body)
+console.log(exampleFrontmatter.body)
 // => 'Here is some example content'
 ```
 
 If you have another loader preconfigured to load files with frontmatter (e.g. [markdown-loader](https://github.com/peerigon/markdown-loader)), you can [disable preconfigured loaders using `!!`](https://webpack.github.io/docs/loaders.html#loader-order):
 
 ```js
-var exampleFM = require('!!json!front-matter!./example.md')
+var exampleFrontmatter = require('!!json!front-matter!./example.md')
+```
+
+To extract only the body content of the target file, use the `onlyBody` query parameter:
+
+```js
+var exampleContent = require('raw!front-matter?onlyBody!./example.md')
 ```
