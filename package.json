@@ -23,6 +23,6 @@
   "homepage": "https://github.com/elliottsj/front-matter-loader#readme",
   "dependencies": {
     "front-matter": "^2.0.0",
-    "loader-utils": "^0.2.11"
+    "loader-utils": "^0.2.12"
   }
 }
