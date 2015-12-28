@@ -8,7 +8,9 @@ module.exports = function (source) {
 	var query = loaderUtils.parseQuery(this.query)
 
 	var frontmatter = fm(source)
-	if (query.onlyBody) {
+	if (query.onlyAttributes) {
+		return JSON.stringify(frontmatter.attributes)
+	} else if (query.onlyBody) {
 		return frontmatter.body
 	} else {
 		return JSON.stringify(frontmatter)
