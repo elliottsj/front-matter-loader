@@ -1,6 +1,6 @@
 {
   "name": "front-matter-loader",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Webpack loader to extract frontmatter using jxson/front-matter",
   "main": "index.js",
   "scripts": {
