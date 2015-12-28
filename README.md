@@ -1,5 +1,5 @@
 # front-matter-loader
-![npm version](https://img.shields.io/npm/v/front-matter-loader.svg)
+[![npm version](https://img.shields.io/npm/v/front-matter-loader.svg)](https://www.npmjs.com/package/front-matter-loader)
 
 Webpack loader to extract frontmatter using [jxson/front-matter](https://github.com/jxson/front-matter)
 
