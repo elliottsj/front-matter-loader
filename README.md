@@ -1,4 +1,6 @@
 # front-matter-loader
+![npm version](https://img.shields.io/npm/v/front-matter-loader.svg)
+
 Webpack loader to extract frontmatter using [jxson/front-matter](https://github.com/jxson/front-matter)
 
 ## Installation
