@@ -4,7 +4,9 @@
   "description": "Webpack loader to extract frontmatter using jxson/front-matter",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "jest": "jest",
+    "lint": "eslint .",
+    "test": "npm run lint && npm run jest"
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,14 @@
   "homepage": "https://github.com/elliottsj/front-matter-loader#readme",
   "dependencies": {
     "front-matter": "^2.0.2",
-    "loader-utils": "^0.2.11"
+    "loader-utils": "^1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.0.0",
+    "eslint-plugin-prettier": "^2.1.2",
+    "jest": "^20.0.4",
+    "json-loader": "^0.5.4",
+    "prettier": "^1.4.4",
+    "webpack": "^3.0.0"
   }
 }
