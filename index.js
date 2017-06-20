@@ -5,12 +5,12 @@ var fm = require('front-matter');
 
 module.exports = function(source) {
   this.cacheable && this.cacheable();
-  var query = loaderUtils.parseQuery(this.query);
+  var options = loaderUtils.getOptions(this) || {};
 
   var frontmatter = fm(source);
-  if (query.onlyAttributes) {
+  if (options.onlyAttributes) {
     return JSON.stringify(frontmatter.attributes);
-  } else if (query.onlyBody) {
+  } else if (options.onlyBody) {
     return frontmatter.body;
   } else {
     return JSON.stringify(frontmatter);
