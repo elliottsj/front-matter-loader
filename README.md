@@ -1,5 +1,7 @@
 # front-matter-loader
+
 [![npm version](https://img.shields.io/npm/v/front-matter-loader.svg)](https://www.npmjs.com/package/front-matter-loader)
+[![Greenkeeper badge](https://badges.greenkeeper.io/elliottsj/front-matter-loader.svg)](https://greenkeeper.io/)
 
 Webpack loader to extract frontmatter using [jxson/front-matter](https://github.com/jxson/front-matter)
 
