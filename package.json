@@ -30,7 +30,7 @@
   "devDependencies": {
     "eslint": "^4.0.0",
     "eslint-plugin-prettier": "^2.1.2",
-    "jest": "^20.0.4",
+    "jest": "^21.0.0",
     "json-loader": "^0.5.4",
     "prettier": "^1.4.4",
     "webpack": "^3.0.0"
