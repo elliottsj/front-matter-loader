@@ -24,10 +24,10 @@ description: This is an example
 Here is some example content
 ```
 
-The frontmatter can be extracted like this:
+The frontmatter can be extracted like this (using [json-loader](https://github.com/webpack-contrib/json-loader)):
 
 ```js
-var exampleFrontmatter = require('json!front-matter!./example.md')
+var exampleFrontmatter = require('json-loader!front-matter-loader!./example.md')
 
 console.log(exampleFrontmatter.attributes.title)
 // => 'Example'
@@ -37,16 +37,10 @@ console.log(exampleFrontmatter.body)
 // => 'Here is some example content'
 ```
 
-If you have another loader preconfigured to load files with frontmatter (e.g. [markdown-loader](https://github.com/peerigon/markdown-loader)), you can [disable preconfigured loaders using `!!`](https://webpack.github.io/docs/loaders.html#loader-order):
-
-```js
-var exampleFrontmatter = require('!!json!front-matter!./example.md')
-```
-
 To extract only the frontmatter attributes of the target file, use the `onlyAttributes` query parameter:
 
 ```js
-var exampleAttributes = require('json!front-matter?onlyAttributes!./example.md')
+var exampleAttributes = require('json-loader!front-matter-loader?onlyAttributes!./example.md')
 console.log(exampleAttributes.title)
 // => 'Example'
 console.log(exampleAttributes.description)
@@ -56,5 +50,7 @@ console.log(exampleAttributes.description)
 To extract only the body content of the target file, use the `onlyBody` query parameter:
 
 ```js
-var exampleContent = require('raw!front-matter?onlyBody!./example.md')
+var exampleContent = require('raw-loader!front-matter-loader?onlyBody!./example.md')
 ```
+
+For a complete example using a webpack config, see [example/](example/).
