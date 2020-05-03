@@ -19,9 +19,10 @@ test('extracts frontmatter and body as an object', () => {
       '"title":"Example",' +
       '"description":"This is an example"' +
       '},' +
-      '"body":"\\nHere is some example content",' +
+      '"body":"Here is some example content",' +
+      '"bodyBegin":6,' +
       '"frontmatter":"title: Example\\ndescription: This is an example"' +
-      '}',
+      '}'
   );
 });
 
@@ -32,7 +33,7 @@ test('extracts only the frontmatter when onlyAttributes is passed', () => {
   };
 
   expect(frontMatterLoader.call(context, source)).toBe(
-    '{"title":"Example","description":"This is an example"}',
+    '{"title":"Example","description":"This is an example"}'
   );
 });
 
@@ -43,6 +44,6 @@ test('extracts only the body when onlyBody is passed', () => {
   };
 
   expect(frontMatterLoader.call(context, source)).toBe(
-    '\nHere is some example content',
+    'Here is some example content'
   );
 });
