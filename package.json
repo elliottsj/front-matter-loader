@@ -29,7 +29,7 @@
     "loader-utils": "^2.0.0"
   },
   "devDependencies": {
-    "jest": "26.0.1",
+    "jest": "26.1.0",
     "json-loader": "0.5.7",
     "prettier": "2.0.5",
     "webpack": "4.43.0"
