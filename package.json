@@ -25,8 +25,7 @@
   },
   "homepage": "https://github.com/elliottsj/front-matter-loader#readme",
   "dependencies": {
-    "front-matter": "^4.0.0",
-    "loader-utils": "^2.0.0"
+    "front-matter": "^4.0.0"
   },
   "devDependencies": {
     "jest": "26.5.3",
