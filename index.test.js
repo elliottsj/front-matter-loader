@@ -10,7 +10,7 @@ Here is some example content`;
 test('extracts frontmatter and body as an object', () => {
   const context = {
     cacheable: jest.fn(),
-    query: '',
+    getOptions: () => ({}),
   };
 
   expect(frontMatterLoader.call(context, source)).toBe(
@@ -29,7 +29,7 @@ test('extracts frontmatter and body as an object', () => {
 test('extracts only the frontmatter when onlyAttributes is passed', () => {
   const context = {
     cacheable: jest.fn(),
-    query: '?onlyAttributes',
+    getOptions: () => ({ onlyAttributes: true }),
   };
 
   expect(frontMatterLoader.call(context, source)).toBe(
@@ -40,7 +40,7 @@ test('extracts only the frontmatter when onlyAttributes is passed', () => {
 test('extracts only the body when onlyBody is passed', () => {
   const context = {
     cacheable: jest.fn(),
-    query: '?onlyBody',
+    getOptions: () => ({ onlyBody: true }),
   };
 
   expect(frontMatterLoader.call(context, source)).toBe(

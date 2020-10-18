@@ -14,7 +14,7 @@ module.exports = {
     rules: [
       {
         test: /\.md$/,
-        loaders: ['json-loader', frontMatterLoader],
+        use: ['json-loader', frontMatterLoader],
       },
     ],
   },
