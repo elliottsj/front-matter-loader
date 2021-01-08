@@ -4,7 +4,7 @@ devDependencies:
   jest: 26.6.3
   json-loader: 0.5.7
   prettier: 2.2.1
-  webpack: 5.11.1
+  webpack: 5.12.1
 lockfileVersion: 5.2
 packages:
   /@babel/code-frame/7.10.4:
@@ -2761,12 +2761,12 @@ packages:
     dev: true
     resolution:
       integrity: sha1-HADHQ7QzzQpOgHWPe2SldEDZ/wA=
-  /loader-runner/4.1.0:
+  /loader-runner/4.2.0:
     dev: true
     engines:
       node: '>=6.11.5'
     resolution:
-      integrity: sha512-oR4lB4WvwFoC70ocraKhn5nkKSs23t57h9udUgw8o0iH8hMXeEoRuUgfcvgUwAJ1ZpRqBvcou4N2SMvM1DwMrA==
+      integrity: sha512-92+huvxMvYlMzMt0iIOukcwYBFpkYJdpl2xsZ7LrlayO7E8SOv+JJUEK17B/dJIHAOLMfh2dZZ/Y18WgmGtYNw==
   /locate-path/5.0.0:
     dependencies:
       p-locate: 4.1.0
@@ -3790,7 +3790,7 @@ packages:
       node: '>=8'
     resolution:
       integrity: sha512-un0FmiRUQNr5PJqy9kP7c40F5BOfpGlYTrxonDChEZB7pzZxRNp/bt+ymiy9/npwXya9KH99nJ/GXFIiUkYGFQ==
-  /terser-webpack-plugin/5.0.3_webpack@5.11.1:
+  /terser-webpack-plugin/5.0.3_webpack@5.12.1:
     dependencies:
       jest-worker: 26.6.2
       p-limit: 3.0.2
@@ -3798,7 +3798,7 @@ packages:
       serialize-javascript: 5.0.1
       source-map: 0.6.1
       terser: 5.3.8
-      webpack: 5.11.1
+      webpack: 5.12.1
     dev: true
     engines:
       node: '>= 10.13.0'
@@ -4081,7 +4081,7 @@ packages:
       node: '>=10.13.0'
     resolution:
       integrity: sha512-hraq9n99K564zuZUsE61iATO3jvzxOmGo20UlOe3zgdHOBp8inTJgv7EY4RgvCv7Ywx0/vpQTyYSjnFpv4gNtQ==
-  /webpack/5.11.1:
+  /webpack/5.12.1:
     dependencies:
       '@types/eslint-scope': 3.7.0
       '@types/estree': 0.0.45
@@ -4098,13 +4098,13 @@ packages:
       glob-to-regexp: 0.4.1
       graceful-fs: 4.2.4
       json-parse-better-errors: 1.0.2
-      loader-runner: 4.1.0
+      loader-runner: 4.2.0
       mime-types: 2.1.27
       neo-async: 2.6.2
       pkg-dir: 5.0.0
       schema-utils: 3.0.0
       tapable: 2.1.1
-      terser-webpack-plugin: 5.0.3_webpack@5.11.1
+      terser-webpack-plugin: 5.0.3_webpack@5.12.1
       watchpack: 2.0.0
       webpack-sources: 2.1.1
     dev: true
@@ -4117,7 +4117,7 @@ packages:
       webpack-cli:
         optional: true
     resolution:
-      integrity: sha512-tNUIdAmYJv+nupRs/U/gqmADm6fgrf5xE+rSlSsf2PgsGO7j2WG7ccU6AWNlOJlHFl+HnmXlBmHIkiLf+XA9mQ==
+      integrity: sha512-Bh6hPzUvTLuGZg33xsZLEtAkaEJf9ux29WwGj4IeAGUCy7RE8zhqe4aHN4UqA8yHmHzvhORFH2p9ohB6h6R3yg==
   /whatwg-encoding/1.0.5:
     dependencies:
       iconv-lite: 0.4.24
@@ -4245,4 +4245,4 @@ specifiers:
   jest: 26.6.3
   json-loader: 0.5.7
   prettier: 2.2.1
-  webpack: 5.11.1
+  webpack: 5.12.1
