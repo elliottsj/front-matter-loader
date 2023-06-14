@@ -4,7 +4,7 @@ devDependencies:
   jest: 26.6.3
   json-loader: 0.5.7
   prettier: 2.8.8
-  webpack: 5.86.0
+  webpack: 5.87.0
 lockfileVersion: 5.2
 packages:
   /@babel/code-frame/7.10.4:
@@ -1453,7 +1453,7 @@ packages:
     dev: true
     resolution:
       integrity: sha512-+uw1inIHVPQoaVuHzRyXd21icM+cnt4CzD5rW+NC1wjOUSTOs+Te7FOv7AhN7vS9x/oIyhLP5PR1H+phQAHu5Q==
-  /enhanced-resolve/5.14.1:
+  /enhanced-resolve/5.15.0:
     dependencies:
       graceful-fs: 4.2.11
       tapable: 2.2.0
@@ -1461,7 +1461,7 @@ packages:
     engines:
       node: '>=10.13.0'
     resolution:
-      integrity: sha512-Vklwq2vDKtl0y/vtwjSesgJ5MYS7Etuk5txS8VdKL4AOS1aUlD96zqIfsOSLQsdv3xgMRbtkWM8eG9XDfKUPow==
+      integrity: sha512-LXYT42KJ7lpIKECr2mAXIaMldcNCh/7E0KBKOu4KSfkHmP+mZmSs+8V5gBAqisWBy0OO4W5Oyys0GO1Y8KtdKg==
   /error-ex/1.3.2:
     dependencies:
       is-arrayish: 0.2.1
@@ -3461,7 +3461,7 @@ packages:
       node: '>=10'
     resolution:
       integrity: sha512-5LBh1Tls8c9xgGjw3QrMwETmTMVk0oFgvrFSvWx62llR2hcEInrKNZ2GZCCuuy2lvWrdl5jhbpeqc5hRYKFOcw==
-  /schema-utils/3.1.2:
+  /schema-utils/3.3.0:
     dependencies:
       '@types/json-schema': 7.0.12
       ajv: 6.12.6
@@ -3470,7 +3470,7 @@ packages:
     engines:
       node: '>= 10.13.0'
     resolution:
-      integrity: sha512-pvjEHOgWc9OWA/f/DE3ohBWTD6EleVLf7iFUkoSwAxttdBhB9QUebQgxER2kWueOvRJXPHNnyrvvh9eZINB8Eg==
+      integrity: sha512-pN/yOAvcC+5rQ5nERGuwrjLlYvLTbCibnZ1I7B1LaiAz9BRBlE9GMgE/eqV30P7aJQUf7Ddimy/RsbYO/GrVGg==
   /semver/5.7.1:
     dev: true
     hasBin: true
@@ -3805,14 +3805,14 @@ packages:
       node: '>=8'
     resolution:
       integrity: sha512-un0FmiRUQNr5PJqy9kP7c40F5BOfpGlYTrxonDChEZB7pzZxRNp/bt+ymiy9/npwXya9KH99nJ/GXFIiUkYGFQ==
-  /terser-webpack-plugin/5.3.9_webpack@5.86.0:
+  /terser-webpack-plugin/5.3.9_webpack@5.87.0:
     dependencies:
       '@jridgewell/trace-mapping': 0.3.18
       jest-worker: 27.5.1
-      schema-utils: 3.1.2
+      schema-utils: 3.3.0
       serialize-javascript: 6.0.1
       terser: 5.17.6
-      webpack: 5.86.0
+      webpack: 5.87.0
     dev: true
     engines:
       node: '>= 10.13.0'
@@ -4103,7 +4103,7 @@ packages:
       node: '>=10.13.0'
     resolution:
       integrity: sha512-/DyMEOrDgLKKIG0fmvtz+4dUX/3Ghozwgm6iPp8KRhvn+eQf9+Q7GWxVNMk3+uCPWfdXYC4ExGBckIXdFEfH1w==
-  /webpack/5.86.0:
+  /webpack/5.87.0:
     dependencies:
       '@types/eslint-scope': 3.7.4
       '@types/estree': 1.0.1
@@ -4114,7 +4114,7 @@ packages:
       acorn-import-assertions: 1.9.0_acorn@8.8.2
       browserslist: 4.14.5
       chrome-trace-event: 1.0.2
-      enhanced-resolve: 5.14.1
+      enhanced-resolve: 5.15.0
       es-module-lexer: 1.2.1
       eslint-scope: 5.1.1
       events: 3.2.0
@@ -4124,9 +4124,9 @@ packages:
       loader-runner: 4.2.0
       mime-types: 2.1.27
       neo-async: 2.6.2
-      schema-utils: 3.1.2
+      schema-utils: 3.3.0
       tapable: 2.2.0
-      terser-webpack-plugin: 5.3.9_webpack@5.86.0
+      terser-webpack-plugin: 5.3.9_webpack@5.87.0
       watchpack: 2.4.0
       webpack-sources: 3.2.3
     dev: true
@@ -4139,7 +4139,7 @@ packages:
       webpack-cli:
         optional: true
     resolution:
-      integrity: sha512-3BOvworZ8SO/D4GVP+GoRC3fVeg5MO4vzmq8TJJEkdmopxyazGDxN8ClqN12uzrZW9Tv8EED8v5VSb6Sqyi0pg==
+      integrity: sha512-GOu1tNbQ7p1bDEoFRs2YPcfyGs8xq52yyPBZ3m2VGnXGtV9MxjrkABHm4V9Ia280OefsSLzvbVoXcfLxjKY/Iw==
   /whatwg-encoding/1.0.5:
     dependencies:
       iconv-lite: 0.4.24
@@ -4267,4 +4267,4 @@ specifiers:
   jest: 26.6.3
   json-loader: 0.5.7
   prettier: 2.8.8
-  webpack: 5.86.0
+  webpack: 5.87.0
