@@ -4,7 +4,7 @@ devDependencies:
   jest: 26.6.3
   json-loader: 0.5.7
   prettier: 2.8.8
-  webpack: 5.89.0
+  webpack: 5.90.0
 lockfileVersion: 5.2
 packages:
   /@babel/code-frame/7.10.4:
@@ -498,7 +498,7 @@ packages:
     dependencies:
       '@jridgewell/set-array': 1.1.2
       '@jridgewell/sourcemap-codec': 1.4.15
-      '@jridgewell/trace-mapping': 0.3.18
+      '@jridgewell/trace-mapping': 0.3.22
     dev: true
     engines:
       node: '>=6.0.0'
@@ -519,25 +519,21 @@ packages:
   /@jridgewell/source-map/0.3.3:
     dependencies:
       '@jridgewell/gen-mapping': 0.3.3
-      '@jridgewell/trace-mapping': 0.3.18
+      '@jridgewell/trace-mapping': 0.3.22
     dev: true
     resolution:
       integrity: sha512-b+fsZXeLYi9fEULmfBrhxn4IrPlINf8fiNarzTof004v3lFdntdwa9PF7vFJqm3mg7s+ScJMxXaE3Acp1irZcg==
-  /@jridgewell/sourcemap-codec/1.4.14:
-    dev: true
-    resolution:
-      integrity: sha512-XPSJHWmi394fuUuzDnGz1wiKqWfo1yXecHQMRf2l6hztTO+nPru658AyDngaBe7isIxEkRsPR3FZh+s7iVa4Uw==
   /@jridgewell/sourcemap-codec/1.4.15:
     dev: true
     resolution:
       integrity: sha512-eF2rxCRulEKXHTRiDrDy6erMYWqNw4LPdQ8UQA4huuxaQsVeRPFl2oM8oDGxMFhJUWZf9McpLtJasDDZb/Bpeg==
-  /@jridgewell/trace-mapping/0.3.18:
+  /@jridgewell/trace-mapping/0.3.22:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.0
-      '@jridgewell/sourcemap-codec': 1.4.14
+      '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
     resolution:
-      integrity: sha512-w+niJYzMHdd7USdiH2U6869nqhD2nbfZXND5Yp93qIbEmnDNk7PD48o+YchRVpzMU7M6jVCbenTR7PA1FLQ9pA==
+      integrity: sha512-Wf963MzWtA2sjrNt+g18IAln9lKnlRp+K2eH4jjIoF1wYeq3aMREpG09xhlhdzS0EjwU7qmUJYangWa+151vZw==
   /@sinonjs/commons/1.8.1:
     dependencies:
       type-detect: 4.0.8
@@ -582,21 +578,21 @@ packages:
   /@types/eslint-scope/3.7.4:
     dependencies:
       '@types/eslint': 7.2.4
-      '@types/estree': 1.0.1
+      '@types/estree': 1.0.5
     dev: true
     resolution:
       integrity: sha512-9K4zoImiZc3HlIp6AVUDE4CWYx22a+lhSZMYNpbjW04+YF0KWj4pJXnEMjdnFTiQibFFmElcsasJXDbdI/EPhA==
   /@types/eslint/7.2.4:
     dependencies:
-      '@types/estree': 1.0.1
+      '@types/estree': 1.0.5
       '@types/json-schema': 7.0.12
     dev: true
     resolution:
       integrity: sha512-YCY4kzHMsHoyKspQH+nwSe+70Kep7Vjt2X+dZe5Vs2vkRudqtoFoUIv1RlJmZB8Hbp7McneupoZij4PadxsK5Q==
-  /@types/estree/1.0.1:
+  /@types/estree/1.0.5:
     dev: true
     resolution:
-      integrity: sha512-LG4opVs2ANWZ1TJoKc937iMmNstM/d0ae1vNbnBvBhqCSezgVUOzcLCqbI5elV8Vy6WKwKjaqR+zO9VKirBBCA==
+      integrity: sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==
   /@types/graceful-fs/4.1.4:
     dependencies:
       '@types/node': 14.14.5
@@ -1064,18 +1060,18 @@ packages:
     dev: true
     resolution:
       integrity: sha512-9o5UecI3GhkpM6DrXr69PblIuWxPKk9Y0jHBRhdocZ2y7YECBFCsHm79Pr3OyR2AvjhDkabFJaDJMYRazHgsow==
-  /browserslist/4.14.5:
+  /browserslist/4.22.2:
     dependencies:
-      caniuse-lite: 1.0.30001151
-      electron-to-chromium: 1.3.584
-      escalade: 3.1.1
-      node-releases: 1.1.64
+      caniuse-lite: 1.0.30001579
+      electron-to-chromium: 1.4.643
+      node-releases: 2.0.14
+      update-browserslist-db: 1.0.13_browserslist@4.22.2
     dev: true
     engines:
       node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7
     hasBin: true
     resolution:
-      integrity: sha512-Z+vsCZIvCBvqLoYkBFTwEYH3v5MCQbsAjp50ERycpOjnPmolg1Gjy4+KaWWpm8QOJt9GHkhdqAl14NpCX73CWA==
+      integrity: sha512-0UgcrvQmBDvZHFGdYUehrCNIazki7/lUP3kkoi/r3YB2amZbFM9J43ZRkJTXBUZK4gmx56+Sqk9+Vs9mwZx9+A==
   /bser/2.1.1:
     dependencies:
       node-int64: 0.4.0
@@ -1120,10 +1116,10 @@ packages:
       node: '>=10'
     resolution:
       integrity: sha512-WCMml9ivU60+8rEJgELlFp1gxFcEGxwYleE3bziHEDeqsqAWGHdimB7beBFGjLzVNgPGyDsfgXLQEYMpmIFnVQ==
-  /caniuse-lite/1.0.30001151:
+  /caniuse-lite/1.0.30001579:
     dev: true
     resolution:
-      integrity: sha512-Zh3sHqskX6mHNrqUerh+fkf0N72cMxrmflzje/JyVImfpknscMnkeJrlFGJcqTmaa0iszdYptGpWMJCRQDkBVw==
+      integrity: sha512-u5AUVkixruKHJjw/pj9wISlcMpgFWzSrczLZbrqBSxukQixmg0SJ5sZTpvaFvxU0HoQKd4yoyAogyrAz9pzJnA==
   /capture-exit/2.0.0:
     dependencies:
       rsvp: 4.8.5
@@ -1433,10 +1429,10 @@ packages:
     dev: true
     resolution:
       integrity: sha1-OoOpBOVDUyh4dMVkt1SThoSamMk=
-  /electron-to-chromium/1.3.584:
+  /electron-to-chromium/1.4.643:
     dev: true
     resolution:
-      integrity: sha512-NB3DzrTzJFhWkUp+nl2KtUtoFzrfGXTir2S+BU4tXGyXH9vlluPuFpE3pTKeH7+PY460tHLjKzh6K2+TWwW+Ww==
+      integrity: sha512-QHscvvS7gt155PtoRC0dR2ilhL8E9LHhfTQEq1uD5AL0524rBLAwpAREFH06f87/e45B9XkR6Ki5dbhbCsVEIg==
   /emittery/0.7.2:
     dev: true
     engines:
@@ -2979,10 +2975,10 @@ packages:
     optional: true
     resolution:
       integrity: sha512-46z7DUmcjoYdaWyXouuFNNfUo6eFa94t23c53c+lG/9Cvauk4a98rAUp9672X5dxGdQmLpPzTxzu8f/OeEPaFA==
-  /node-releases/1.1.64:
+  /node-releases/2.0.14:
     dev: true
     resolution:
-      integrity: sha512-Iec8O9166/x2HRMJyLLLWkd0sFFLrFNy+Xf+JQfSQsdBJzPcHpNl3JQ9gD4j+aJxmCa25jNsIbM4bmACtSbkSg==
+      integrity: sha512-y10wOWt8yZpqXmOgRo77WaHEmhYQYGNA6y421PKsKYWEK8aW+cqAphborZDhqfyKrbZEN92CN1X2KbafY2s7Yw==
   /normalize-package-data/2.5.0:
     dependencies:
       hosted-git-info: 2.8.8
@@ -3170,6 +3166,10 @@ packages:
     dev: true
     resolution:
       integrity: sha1-Ywn04OX6kT7BxpMHrjZLSzd8nns=
+  /picocolors/1.0.0:
+    dev: true
+    resolution:
+      integrity: sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==
   /picomatch/2.2.2:
     dev: true
     engines:
@@ -3805,14 +3805,14 @@ packages:
       node: '>=8'
     resolution:
       integrity: sha512-un0FmiRUQNr5PJqy9kP7c40F5BOfpGlYTrxonDChEZB7pzZxRNp/bt+ymiy9/npwXya9KH99nJ/GXFIiUkYGFQ==
-  /terser-webpack-plugin/5.3.9_webpack@5.89.0:
+  /terser-webpack-plugin/5.3.10_webpack@5.90.0:
     dependencies:
-      '@jridgewell/trace-mapping': 0.3.18
+      '@jridgewell/trace-mapping': 0.3.22
       jest-worker: 27.5.1
       schema-utils: 3.3.0
       serialize-javascript: 6.0.1
-      terser: 5.17.6
-      webpack: 5.89.0
+      terser: 5.27.0
+      webpack: 5.90.0
     dev: true
     engines:
       node: '>= 10.13.0'
@@ -3829,8 +3829,8 @@ packages:
       uglify-js:
         optional: true
     resolution:
-      integrity: sha512-ZuXsqE07EcggTWQjXUj+Aot/OMcD0bMKGgF63f7UxYcu5/AJF53aIpK1YoP5xR9l6s/Hy2b+t1AM0bLNPRuhwA==
-  /terser/5.17.6:
+      integrity: sha512-BKFPWlPDndPs+NGGCr1U59t0XScL5317Y0UReNrHaw9/FwhPENlq6bfgs+4yPfyP51vqC1bQ4rp1EfXW5ZSH9w==
+  /terser/5.27.0:
     dependencies:
       '@jridgewell/source-map': 0.3.3
       acorn: 8.8.2
@@ -3841,7 +3841,7 @@ packages:
       node: '>=10'
     hasBin: true
     resolution:
-      integrity: sha512-V8QHcs8YuyLkLHsJO5ucyff1ykrLVsR4dNnS//L5Y3NiSXpbK1J+WMVUs67eI0KTxs9JtHhgEQpXQVHlHI92DQ==
+      integrity: sha512-bi1HRwVRskAjheeYl291n3JC4GgO/Ty4z1nVs5AAsmonJulGxpSektecnNedrwK9C7vpvVtcX3cw00VSLt7U2A==
   /test-exclude/6.0.0:
     dependencies:
       '@istanbuljs/schema': 0.1.2
@@ -4001,6 +4001,17 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha1-g3aHP30jNRef+x5vw6jtDfyKtVk=
+  /update-browserslist-db/1.0.13_browserslist@4.22.2:
+    dependencies:
+      browserslist: 4.22.2
+      escalade: 3.1.1
+      picocolors: 1.0.0
+    dev: true
+    hasBin: true
+    peerDependencies:
+      browserslist: '>= 4.21.0'
+    resolution:
+      integrity: sha512-xebP81SNcPuNpPP3uzeW1NYXxI3rxyJzF3pD6sH4jE7o/IX+WtSpwnVU+qIsDPyk0d3hmFQ7mjqc6AtV604hbg==
   /uri-js/4.4.0:
     dependencies:
       punycode: 2.1.1
@@ -4103,16 +4114,16 @@ packages:
       node: '>=10.13.0'
     resolution:
       integrity: sha512-/DyMEOrDgLKKIG0fmvtz+4dUX/3Ghozwgm6iPp8KRhvn+eQf9+Q7GWxVNMk3+uCPWfdXYC4ExGBckIXdFEfH1w==
-  /webpack/5.89.0:
+  /webpack/5.90.0:
     dependencies:
       '@types/eslint-scope': 3.7.4
-      '@types/estree': 1.0.1
+      '@types/estree': 1.0.5
       '@webassemblyjs/ast': 1.11.6
       '@webassemblyjs/wasm-edit': 1.11.6
       '@webassemblyjs/wasm-parser': 1.11.6
       acorn: 8.8.2
       acorn-import-assertions: 1.9.0_acorn@8.8.2
-      browserslist: 4.14.5
+      browserslist: 4.22.2
       chrome-trace-event: 1.0.2
       enhanced-resolve: 5.15.0
       es-module-lexer: 1.2.1
@@ -4126,7 +4137,7 @@ packages:
       neo-async: 2.6.2
       schema-utils: 3.3.0
       tapable: 2.2.0
-      terser-webpack-plugin: 5.3.9_webpack@5.89.0
+      terser-webpack-plugin: 5.3.10_webpack@5.90.0
       watchpack: 2.4.0
       webpack-sources: 3.2.3
     dev: true
@@ -4139,7 +4150,7 @@ packages:
       webpack-cli:
         optional: true
     resolution:
-      integrity: sha512-qyfIC10pOr70V+jkmud8tMfajraGCZMBWJtrmuBymQKCrLTRejBI8STDp1MCyZu/QTdZSeacCQYpYNQVOzX5kw==
+      integrity: sha512-bdmyXRCXeeNIePv6R6tGPyy20aUobw4Zy8r0LUS2EWO+U+Ke/gYDgsCh7bl5rB6jPpr4r0SZa6dPxBxLooDT3w==
   /whatwg-encoding/1.0.5:
     dependencies:
       iconv-lite: 0.4.24
@@ -4267,4 +4278,4 @@ specifiers:
   jest: 26.6.3
   json-loader: 0.5.7
   prettier: 2.8.8
-  webpack: 5.89.0
+  webpack: 5.90.0
