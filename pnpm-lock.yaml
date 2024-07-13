@@ -3,7 +3,7 @@ dependencies:
 devDependencies:
   jest: 26.6.3
   json-loader: 0.5.7
-  prettier: 2.8.8
+  prettier: 3.3.3
   webpack: 5.93.0
 lockfileVersion: 5.2
 packages:
@@ -3204,13 +3204,13 @@ packages:
       node: '>= 0.8.0'
     resolution:
       integrity: sha1-IZMqVJ9eUv/ZqCf1cOBL5iqX2lQ=
-  /prettier/2.8.8:
+  /prettier/3.3.3:
     dev: true
     engines:
-      node: '>=10.13.0'
+      node: '>=14'
     hasBin: true
     resolution:
-      integrity: sha512-tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q==
+      integrity: sha512-i2tDNA0O5IrMO757lfrdQZCc2jPNDVntV0m/+4whiDfWaTKfMNgR7Qz0NAeGz/nRqF4m5/6CLzbP4/liHt12Ew==
   /pretty-format/26.6.2:
     dependencies:
       '@jest/types': 26.6.2
@@ -4277,5 +4277,5 @@ specifiers:
   front-matter: ^4.0.0
   jest: 26.6.3
   json-loader: 0.5.7
-  prettier: 2.8.8
+  prettier: 3.3.3
   webpack: 5.93.0
