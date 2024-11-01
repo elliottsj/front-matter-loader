@@ -4,7 +4,7 @@ devDependencies:
   jest: 26.6.3
   json-loader: 0.5.7
   prettier: 2.8.8
-  webpack: 5.96.0
+  webpack: 5.96.1
 lockfileVersion: 5.2
 packages:
   /@babel/code-frame/7.10.4:
@@ -575,6 +575,20 @@ packages:
     dev: true
     resolution:
       integrity: sha512-Pzh9O3sTK8V6I1olsXpCfj2k/ygO2q1X0vhhnDrEQyYLHZesWz+zMZMVcwXLCYf0U36EtmyYaFGPfXlTtDHe3A==
+  /@types/eslint-scope/3.7.7:
+    dependencies:
+      '@types/eslint': 9.6.1
+      '@types/estree': 1.0.6
+    dev: true
+    resolution:
+      integrity: sha512-MzMFlSLBqNF2gcHWO0G1vP/YQyfvrxZ0bF+u7mzUdZ1/xK4A4sru+nraZz5i3iEIk1l1uyicaDVTB4QbbEkAYg==
+  /@types/eslint/9.6.1:
+    dependencies:
+      '@types/estree': 1.0.6
+      '@types/json-schema': 7.0.12
+    dev: true
+    resolution:
+      integrity: sha512-FXx2pKgId/WyYo2jXw63kk7/+TY7u7AziEJxJAnSFzHlqTAS3Ync6SvgYAN/k4/PQpnnVuzoMuVnByKK2qp0ag==
   /@types/estree/1.0.6:
     dev: true
     resolution:
@@ -3783,14 +3797,14 @@ packages:
       node: '>=8'
     resolution:
       integrity: sha512-un0FmiRUQNr5PJqy9kP7c40F5BOfpGlYTrxonDChEZB7pzZxRNp/bt+ymiy9/npwXya9KH99nJ/GXFIiUkYGFQ==
-  /terser-webpack-plugin/5.3.10_webpack@5.96.0:
+  /terser-webpack-plugin/5.3.10_webpack@5.96.1:
     dependencies:
       '@jridgewell/trace-mapping': 0.3.22
       jest-worker: 27.5.1
       schema-utils: 3.3.0
       serialize-javascript: 6.0.1
       terser: 5.27.0
-      webpack: 5.96.0
+      webpack: 5.96.1
     dev: true
     engines:
       node: '>= 10.13.0'
@@ -4092,8 +4106,9 @@ packages:
       node: '>=10.13.0'
     resolution:
       integrity: sha512-/DyMEOrDgLKKIG0fmvtz+4dUX/3Ghozwgm6iPp8KRhvn+eQf9+Q7GWxVNMk3+uCPWfdXYC4ExGBckIXdFEfH1w==
-  /webpack/5.96.0:
+  /webpack/5.96.1:
     dependencies:
+      '@types/eslint-scope': 3.7.7
       '@types/estree': 1.0.6
       '@webassemblyjs/ast': 1.12.1
       '@webassemblyjs/wasm-edit': 1.12.1
@@ -4113,7 +4128,7 @@ packages:
       neo-async: 2.6.2
       schema-utils: 3.3.0
       tapable: 2.2.0
-      terser-webpack-plugin: 5.3.10_webpack@5.96.0
+      terser-webpack-plugin: 5.3.10_webpack@5.96.1
       watchpack: 2.4.1
       webpack-sources: 3.2.3
     dev: true
@@ -4126,7 +4141,7 @@ packages:
       webpack-cli:
         optional: true
     resolution:
-      integrity: sha512-gvn84AfQ4f6vUeNWmFuRp3vGERyxK4epADKTaAo60K0EQbY/YBNQbXH3Ji/ZRK5M25O/XneAOuChF4xQZjQ4xA==
+      integrity: sha512-l2LlBSvVZGhL4ZrPwyr8+37AunkcYj5qh8o6u2/2rzoPc8gxFJkLj1WxNgooi9pnoc06jh0BjuXnamM4qlujZA==
   /whatwg-encoding/1.0.5:
     dependencies:
       iconv-lite: 0.4.24
@@ -4254,4 +4269,4 @@ specifiers:
   jest: 26.6.3
   json-loader: 0.5.7
   prettier: 2.8.8
-  webpack: 5.96.0
+  webpack: 5.96.1
