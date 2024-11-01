@@ -4,7 +4,7 @@ devDependencies:
   jest: 26.6.3
   json-loader: 0.5.7
   prettier: 2.8.8
-  webpack: 5.95.0
+  webpack: 5.96.0
 lockfileVersion: 5.2
 packages:
   /@babel/code-frame/7.10.4:
@@ -575,10 +575,10 @@ packages:
     dev: true
     resolution:
       integrity: sha512-Pzh9O3sTK8V6I1olsXpCfj2k/ygO2q1X0vhhnDrEQyYLHZesWz+zMZMVcwXLCYf0U36EtmyYaFGPfXlTtDHe3A==
-  /@types/estree/1.0.5:
+  /@types/estree/1.0.6:
     dev: true
     resolution:
-      integrity: sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==
+      integrity: sha512-AYnb1nQyY49te+VRAVgmzfcgjYS91mY5P0TKUDCLEM+gNnA+3T6rWITXRLYCpahpqSQbN5cE+gHpnPyXjHWxcw==
   /@types/graceful-fs/4.1.4:
     dependencies:
       '@types/node': 14.14.5
@@ -756,14 +756,6 @@ packages:
     dev: true
     resolution:
       integrity: sha512-ZQl7LOWaF5ePqqcX4hLuv/bLXYQNfNWw2c0/yX/TsPRKamzHcTGQnlCjHT3TsmkOUVEPS3crCxiPfdzE/Trlhg==
-  /acorn-import-attributes/1.9.5_acorn@8.8.2:
-    dependencies:
-      acorn: 8.8.2
-    dev: true
-    peerDependencies:
-      acorn: ^8
-    resolution:
-      integrity: sha512-n02Vykv5uA3eHGM/Z2dQrcD56kL8TyDb2p1+0P83PClMnC/nc+anbQRhIOWnSq4Ke/KvDPrY3C9hDtC/A3eHnQ==
   /acorn-walk/7.2.0:
     dev: true
     engines:
@@ -777,13 +769,13 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-nQyp0o1/mNdbTO1PO6kHkwSrmgZ0MT/jCCpNiwbUjGoRN4dlBhqJtoQuCnEOKzgTVwg0ZWiCoQy6SxMebQVh8A==
-  /acorn/8.8.2:
+  /acorn/8.14.0:
     dev: true
     engines:
       node: '>=0.4.0'
     hasBin: true
     resolution:
-      integrity: sha512-xjIYgE8HBrkpd/sJqOGNspf8uHG+NOHGOw6a/Urj8taM2EXfdNAH2oFcPeIFfsv3+kz/mJrS5VuMqbNLjCa2vw==
+      integrity: sha512-cl669nCJTZBsL97OF4kUQm5g5hC2uihk0NxY3WENAC0TYdILVkAyHymAntgxGkl7K+t0cXIrH5siy5S4XkFycA==
   /ajv-keywords/3.5.2_ajv@6.12.6:
     dependencies:
       ajv: 6.12.6
@@ -1046,18 +1038,18 @@ packages:
     dev: true
     resolution:
       integrity: sha512-9o5UecI3GhkpM6DrXr69PblIuWxPKk9Y0jHBRhdocZ2y7YECBFCsHm79Pr3OyR2AvjhDkabFJaDJMYRazHgsow==
-  /browserslist/4.22.2:
+  /browserslist/4.24.2:
     dependencies:
-      caniuse-lite: 1.0.30001579
-      electron-to-chromium: 1.4.643
-      node-releases: 2.0.14
-      update-browserslist-db: 1.0.13_browserslist@4.22.2
+      caniuse-lite: 1.0.30001676
+      electron-to-chromium: 1.5.50
+      node-releases: 2.0.18
+      update-browserslist-db: 1.1.1_browserslist@4.24.2
     dev: true
     engines:
       node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7
     hasBin: true
     resolution:
-      integrity: sha512-0UgcrvQmBDvZHFGdYUehrCNIazki7/lUP3kkoi/r3YB2amZbFM9J43ZRkJTXBUZK4gmx56+Sqk9+Vs9mwZx9+A==
+      integrity: sha512-ZIc+Q62revdMcqC6aChtW4jz3My3klmCO1fEmINZY/8J3EpBg5/A/D0AKmBveUh6pgoeycoMkVMko84tuYS+Gg==
   /bser/2.1.1:
     dependencies:
       node-int64: 0.4.0
@@ -1102,10 +1094,10 @@ packages:
       node: '>=10'
     resolution:
       integrity: sha512-WCMml9ivU60+8rEJgELlFp1gxFcEGxwYleE3bziHEDeqsqAWGHdimB7beBFGjLzVNgPGyDsfgXLQEYMpmIFnVQ==
-  /caniuse-lite/1.0.30001579:
+  /caniuse-lite/1.0.30001676:
     dev: true
     resolution:
-      integrity: sha512-u5AUVkixruKHJjw/pj9wISlcMpgFWzSrczLZbrqBSxukQixmg0SJ5sZTpvaFvxU0HoQKd4yoyAogyrAz9pzJnA==
+      integrity: sha512-Qz6zwGCiPghQXGJvgQAem79esjitvJ+CxSbSQkW9H/UX5hg8XM88d4lp2W+MEQ81j+Hip58Il+jGVdazk1z9cw==
   /capture-exit/2.0.0:
     dependencies:
       rsvp: 4.8.5
@@ -1415,10 +1407,10 @@ packages:
     dev: true
     resolution:
       integrity: sha1-OoOpBOVDUyh4dMVkt1SThoSamMk=
-  /electron-to-chromium/1.4.643:
+  /electron-to-chromium/1.5.50:
     dev: true
     resolution:
-      integrity: sha512-QHscvvS7gt155PtoRC0dR2ilhL8E9LHhfTQEq1uD5AL0524rBLAwpAREFH06f87/e45B9XkR6Ki5dbhbCsVEIg==
+      integrity: sha512-eMVObiUQ2LdgeO1F/ySTXsvqvxb6ZH2zPGaMYsWzRDdOddUa77tdmI0ltg+L16UpbWdhPmuF3wIQYyQq65WfZw==
   /emittery/0.7.2:
     dev: true
     engines:
@@ -1454,12 +1446,12 @@ packages:
     dev: true
     resolution:
       integrity: sha512-9978wrXM50Y4rTMmW5kXIC09ZdXQZqkE4mxhwkd8VbzsGkXGPgV4zWuqQJgCEzYngdo2dYDa0l8xhX4fkSwJSg==
-  /escalade/3.1.1:
+  /escalade/3.2.0:
     dev: true
     engines:
       node: '>=6'
     resolution:
-      integrity: sha512-k0er2gUkLf8O0zKJiAhmkTnJlTvINGv7ygDNPbeIsX/TJjGJZHuh9B2UxbsaEkmlEo9MfhrSzmhIlhRlI2GXnw==
+      integrity: sha512-WUj2qlxaQtO4g6Pq5c29GTcWGDyd8itL8zTlipgECz3JesAiiOKotd8JU6otB3PACgG6xkJUyVhboMS+bje/jA==
   /escape-string-regexp/1.0.5:
     dev: true
     engines:
@@ -2961,10 +2953,10 @@ packages:
     optional: true
     resolution:
       integrity: sha512-46z7DUmcjoYdaWyXouuFNNfUo6eFa94t23c53c+lG/9Cvauk4a98rAUp9672X5dxGdQmLpPzTxzu8f/OeEPaFA==
-  /node-releases/2.0.14:
+  /node-releases/2.0.18:
     dev: true
     resolution:
-      integrity: sha512-y10wOWt8yZpqXmOgRo77WaHEmhYQYGNA6y421PKsKYWEK8aW+cqAphborZDhqfyKrbZEN92CN1X2KbafY2s7Yw==
+      integrity: sha512-d9VeXT4SJ7ZeOqGX6R5EM022wpL+eWPooLI+5UpWn2jCT1aosUQEhQP214x33Wkwx3JQMvIm+tIoVOdodFS40g==
   /normalize-package-data/2.5.0:
     dependencies:
       hosted-git-info: 2.8.8
@@ -3152,10 +3144,10 @@ packages:
     dev: true
     resolution:
       integrity: sha1-Ywn04OX6kT7BxpMHrjZLSzd8nns=
-  /picocolors/1.0.0:
+  /picocolors/1.1.1:
     dev: true
     resolution:
-      integrity: sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==
+      integrity: sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==
   /picomatch/2.2.2:
     dev: true
     engines:
@@ -3791,14 +3783,14 @@ packages:
       node: '>=8'
     resolution:
       integrity: sha512-un0FmiRUQNr5PJqy9kP7c40F5BOfpGlYTrxonDChEZB7pzZxRNp/bt+ymiy9/npwXya9KH99nJ/GXFIiUkYGFQ==
-  /terser-webpack-plugin/5.3.10_webpack@5.95.0:
+  /terser-webpack-plugin/5.3.10_webpack@5.96.0:
     dependencies:
       '@jridgewell/trace-mapping': 0.3.22
       jest-worker: 27.5.1
       schema-utils: 3.3.0
       serialize-javascript: 6.0.1
       terser: 5.27.0
-      webpack: 5.95.0
+      webpack: 5.96.0
     dev: true
     engines:
       node: '>= 10.13.0'
@@ -3819,7 +3811,7 @@ packages:
   /terser/5.27.0:
     dependencies:
       '@jridgewell/source-map': 0.3.3
-      acorn: 8.8.2
+      acorn: 8.14.0
       commander: 2.20.3
       source-map-support: 0.5.21
     dev: true
@@ -3987,17 +3979,17 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha1-g3aHP30jNRef+x5vw6jtDfyKtVk=
-  /update-browserslist-db/1.0.13_browserslist@4.22.2:
+  /update-browserslist-db/1.1.1_browserslist@4.24.2:
     dependencies:
-      browserslist: 4.22.2
-      escalade: 3.1.1
-      picocolors: 1.0.0
+      browserslist: 4.24.2
+      escalade: 3.2.0
+      picocolors: 1.1.1
     dev: true
     hasBin: true
     peerDependencies:
       browserslist: '>= 4.21.0'
     resolution:
-      integrity: sha512-xebP81SNcPuNpPP3uzeW1NYXxI3rxyJzF3pD6sH4jE7o/IX+WtSpwnVU+qIsDPyk0d3hmFQ7mjqc6AtV604hbg==
+      integrity: sha512-R8UzCaa9Az+38REPiJ1tXlImTJXlVfgHZsglwBD/k6nj76ctsH1E3q4doGrukiLQd3sGQYu56r5+lo5r94l29A==
   /uri-js/4.4.0:
     dependencies:
       punycode: 2.1.1
@@ -4100,15 +4092,14 @@ packages:
       node: '>=10.13.0'
     resolution:
       integrity: sha512-/DyMEOrDgLKKIG0fmvtz+4dUX/3Ghozwgm6iPp8KRhvn+eQf9+Q7GWxVNMk3+uCPWfdXYC4ExGBckIXdFEfH1w==
-  /webpack/5.95.0:
+  /webpack/5.96.0:
     dependencies:
-      '@types/estree': 1.0.5
+      '@types/estree': 1.0.6
       '@webassemblyjs/ast': 1.12.1
       '@webassemblyjs/wasm-edit': 1.12.1
       '@webassemblyjs/wasm-parser': 1.12.1
-      acorn: 8.8.2
-      acorn-import-attributes: 1.9.5_acorn@8.8.2
-      browserslist: 4.22.2
+      acorn: 8.14.0
+      browserslist: 4.24.2
       chrome-trace-event: 1.0.2
       enhanced-resolve: 5.17.1
       es-module-lexer: 1.2.1
@@ -4122,7 +4113,7 @@ packages:
       neo-async: 2.6.2
       schema-utils: 3.3.0
       tapable: 2.2.0
-      terser-webpack-plugin: 5.3.10_webpack@5.95.0
+      terser-webpack-plugin: 5.3.10_webpack@5.96.0
       watchpack: 2.4.1
       webpack-sources: 3.2.3
     dev: true
@@ -4135,7 +4126,7 @@ packages:
       webpack-cli:
         optional: true
     resolution:
-      integrity: sha512-2t3XstrKULz41MNMBF+cJ97TyHdyQ8HCt//pqErqDvNjU9YQBnZxIHa11VXsi7F3mb5/aO2tuDxdeTPdU7xu9Q==
+      integrity: sha512-gvn84AfQ4f6vUeNWmFuRp3vGERyxK4epADKTaAo60K0EQbY/YBNQbXH3Ji/ZRK5M25O/XneAOuChF4xQZjQ4xA==
   /whatwg-encoding/1.0.5:
     dependencies:
       iconv-lite: 0.4.24
@@ -4263,4 +4254,4 @@ specifiers:
   jest: 26.6.3
   json-loader: 0.5.7
   prettier: 2.8.8
-  webpack: 5.95.0
+  webpack: 5.96.0
